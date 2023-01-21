@@ -187,15 +187,7 @@
     padding-top: 50%;
     margin-top: var(--height);
     background:
-<<<<<<< HEAD
        url(../img/slider/slider1.jpg) 
-=======
-<<<<<<< HEAD
-       url(/assets/img/slider/slider1.jpg) 
-=======
-       url(../img/slider/slider1.jpg) 
->>>>>>> 37d289d (My new commit message)
->>>>>>> 53f685e2ec1443a001ae4d2f459231c4362a6728
        top center / cover 
        no-repeat;
  }
@@ -217,14 +209,7 @@
 
  #slider .text-description {
     font-size: 15px;
-<<<<<<< HEAD
     text-shadow: 0 0 1px #000;
-=======
-<<<<<<< HEAD
-=======
-    text-shadow: 0 0 1px #000;
->>>>>>> 37d289d (My new commit message)
->>>>>>> 53f685e2ec1443a001ae4d2f459231c4362a6728
     font-weight: bolder;
  }
 
