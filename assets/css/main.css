@@ -13,16 +13,17 @@
     scroll-behavior: smooth;
  }
 
-.row {
+ .row {
     margin-left: -8px;
     margin-right: -8px;
-}
+ }
 
-.col {
+ .col {
     float: left;
     padding-left: 8px;
     padding-right: 8px;
-}
+ }
+
  .clear {
     clear: both;
  }
@@ -51,7 +52,7 @@
 
  .col-full {
     width: 100%;
-}
+ }
 
  .btn {
     background-color: #000;
@@ -153,11 +154,11 @@
     float: right;
  }
 
-#header .menu-mobile-btn{
+ #header .menu-mobile-btn {
     position: absolute;
     right: 0;
     top: 0;
-}
+ }
 
  #header .menu-icon,
  #header .search-icon {
@@ -174,22 +175,21 @@
     background-color: #f44;
  }
 
- #header .menu-mobile-btn:hover{
+ #header .menu-mobile-btn:hover {
     background-color: #ccc;
     cursor: pointer;
-}
+ }
 
-#header .menu-mobile-btn:hover .menu-icon{
+ #header .menu-mobile-btn:hover .menu-icon {
     color: #000;
-}
+ }
+
  #slider {
     position: relative;
     padding-top: 50%;
     margin-top: var(--height);
-    background:
-       url(../img/slider/slider1.jpg) 
-       top center / cover 
-       no-repeat;
+    /* background:
+       url(../img/slider/slider1.jpg) top center / cover no-repeat; */
  }
 
  #slider .text-content {
@@ -262,7 +262,7 @@
  /* Tour section */
 
  .tour-section {
-    background-color: #000; 
+    background-color: #000;
  }
 
  .ticket-booked-list {
@@ -296,16 +296,17 @@
  }
 
  /* Location */
- 
-.location-lists {
+
+ .location-lists {
     margin-top: 32px;
     margin-left: -8px;
     margin-right: -8px;
-}
-   .location-items{
-     width: 100%;
-   }
-   
+ }
+
+ .location-items {
+    width: 100%;
+ }
+
  .location-img {
     width: 100%;
     display: block;
@@ -352,14 +353,14 @@
     display: inline-block;
  }
 
-.contact-info a{
-   color: #0f5085;
-   opacity: 0.8;
-}
+ .contact-info a {
+    color: #0f5085;
+    opacity: 0.8;
+ }
 
-.contact-info a:hover{
-   opacity: 1;
-}
+ .contact-info a:hover {
+    opacity: 1;
+ }
 
  .contact-form {
     font-size: 15px;
@@ -507,12 +508,12 @@
 
  @keyframes modalFadeIn {
     from {
-        transform: translateY(-140px);
-        opacity: 0;
+       transform: translateY(-140px);
+       opacity: 0;
     }
 
     to {
-        transform: translateY(0);
-        opacity: 1;
+       transform: translateY(0);
+       opacity: 1;
     }
  }
