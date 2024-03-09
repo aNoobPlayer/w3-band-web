@@ -43,5 +43,3 @@ const slider = {
         setInterval(forRender,4000)
     }
 }
-
-slider.start()
